@@ -1,3 +1,4 @@
 # johnlyonmusic.github.io
 
-A quick simple static html/css site and portfolio (Warning: Insanely messy).
+Is this a quick simple static html/css site and portfolio I made? Yes.
+Is the code a mess? Yeop.
