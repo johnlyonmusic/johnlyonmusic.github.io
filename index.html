@@ -16,8 +16,8 @@ body {
     font-family: "Planet Light", "Planet Light", sans-serif;
     font-weight: normal;
     scroll-behavior: smooth;
-    background-color: white;
-    max-width: 1000px;
+    background-color: rgb(243, 243, 243);
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     -webkit-font-smoothing: antialiased;
@@ -25,7 +25,7 @@ body {
 
 .music img:hover {
     transform: scale(1.09);
-    transition: 0.4s;
+    transition: 0.2s;
     filter: saturate(1.3) !important;
 }
 
@@ -36,7 +36,7 @@ body {
 h1 {
     font-style: normal;
     font-weight: lighter;
-    font-size: 70px;
+    font-size: 150px;
 }
 h2 {
     font-weight: lighter;
@@ -48,7 +48,7 @@ h2 {
     margin-top: -30px; 
     font-size: 18px;
     color: white;
-    font-weight: bold;
+    font-weight: normal;
     border-left: Solid 5px black;
     padding-left: 5px;
     padding-right: 20px;
@@ -57,7 +57,6 @@ h2 {
 
 .title {
     text-align: center;
-    padding-top: 4%;
     
 }
 
@@ -68,17 +67,18 @@ h2 {
 }
 
 .music img {
-    width: 170PX;
-    height: 170px;
+    width: 210PX;
+    height: 210px;
 }
 
 .image-text {
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
     line-height: 1;
+    text-transform: uppercase;
 }
 .year {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: -9px;
     opacity: 90%;
 }
@@ -93,7 +93,7 @@ img {
 
 .dp {
     background-size: cover;
-    width: 220px;
+    width: 260px;
 }
 
 .row {
@@ -110,11 +110,11 @@ img {
 
 .menu a {
     text-decoration: none;
-    line-height: 1.8;
-    font-size: 13px;
+    line-height: 1.5;
+    font-size: 18px;
     background-color: black;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     padding-left: 15px;
     padding-right: 2px;
 }
@@ -141,7 +141,7 @@ img {
     position: fixed !important;
     z-index: 2;
     top: 40%;
-    right: 10%;
+    right: 9%;
     margin-right: 10px;
 }
 
@@ -156,7 +156,7 @@ a:visited {
 
 #bio {
     margin-left: 10%;
-    border-left: solid;
+    border-left: solid 20px black;
 }
 
 #moremusic {
@@ -177,21 +177,29 @@ a {
     text-decoration: none;
 }
 
+.tag {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-style: italic;
+    font-size: 25px;
+    padding-bottom: 10%;
+}
+
 </style>
 <body>
-<div class="title">
+<div class="title" style="padding-top: 20%;">
     <h1>
         JOHN LYON
     </h1>
 </div>
 
-<h2 class="title" style="margin-top: -50px; padding-bottom: 3%;">
+<h2 class="title" style="padding-top: 20%; padding-bottom:10%;">
    Composer, Producer
 </h2>
 
 <div>
     <div>
-        <p style="width: 50%; margin: auto; font-size: 9px; font-style: italic; padding-bottom: 1%; font-weight: lighter;">
+        <p style="width: 50%; margin: auto; font-size: 14px; font-style: italic; padding-bottom: 1%; font-weight: lighter;">
             Note: The following is a short selection of original solo and commissioned music by John Lyon © 2016-2023. All Rights Reserved. Excluding official publications, artworks are all currently unofficial.
             <br>This portfolio is best suited to widescreen viewing.
         </p>
@@ -546,7 +554,7 @@ a {
 </div>
 
 <div id="bio" style="margin-top:5%;">
-    <div class="row" style="align-items: center; line-height: 1.5; font-size: 16px;">
+    <div class="row" style="align-items: center; line-height: 1.5; font-size: 18px;">
         <div class="column">
             <h3 style="font-size: 30px; font-weight: bold;">Bio</h3>
             <p>John Lyon is an Eastern and Western influenced Composer, with a great interest in genres incl. Classical, Orchestral, Jazz and Electronic music. His aim is to meaningfully contribute to the world’s vast catalogue of iconic music, pushing for quality, thought-provocation and immersion, in an endeavour to meet the desire for new virtuosity and a fresh approach to modern composition.
@@ -562,7 +570,7 @@ a {
         </div>
     </div>
 </div>
-<div id="commission" class="row" style="align-items: baseline; line-height: 1.5; font-size: 16px;">
+<div id="commission" class="row" style="align-items: baseline; line-height: 1.5; font-size: 18px;">
     <div class="column" style="width: 50%;">
         <h3 style="font-size: 30px; font-weight: bold;">Commission an original classical-influenced piano work</h3>
         <p>This public commission service plays an important role in my endeavour to create a range of classical-themed hits and to make piano music that sounds new, yet familiar and iconic. As commissioned original paintings, and artworks, may serve as special and sacred gifts, I imagine that original classical music could be just as personal and gifting.
@@ -582,7 +590,7 @@ a {
     </div>        
 </div>
 
-<div id="contact" class="row" style="line-height: 1.5; font-size: 16px; max-width: 50%; text-align: left; justify-content: center;">
+<div id="contact" class="row" style="line-height: 1.5; font-size: 18px; max-width: 50%; text-align: left; justify-content: center;">
     <div class="column">
         <h3 style="font-size: 30px; font-weight: bold;">Contact</h3>
         <p>For all commission and other collaboration or business inquiries e.g. relating to video-game soundtracks, please contact me via
