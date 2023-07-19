@@ -3,133 +3,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Lyon</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/retro2 copy.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=planet light">
+    <link rel="shortcut icon" type="image/x-icon" href="images/abyss.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <style>
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900');
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Planet Light", "Planet Light", sans-serif;
-    font-weight: normal;
-    scroll-behavior: smooth;
-    background-color: rgb(243, 243, 243);
-    max-width: 1200px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-font-smoothing: antialiased;
+    line-height: 1.8;
+    background-color: rgb(232, 232, 232);
+    display: flexbox;
+    padding: 10px;
 }
 
-.music img:hover {
-    transform: scale(1.09);
-    transition: 0.2s;
-    filter: saturate(1.3) !important;
+h1, h3, h2, h3{
+    font-family: "Playfair Display", serif;
 }
-
-.music img {
-    transition: 0.1s;
-}
-
 h1 {
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 150px;
+    font-size: 48px;
 }
 h2 {
-    font-weight: lighter;
-    font-size: 20px;
+    font-size: 26px;
+}
+h3 {
+    font-size: 23px;
+}
+p, i, a {
+    font-family: "lora";
+    font-size: 21px;
 }
 
-.category {
-    position: absolute;
-    margin-top: -30px; 
-    font-size: 18px;
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(56, 56, 56);
     color: white;
-    font-weight: normal;
-    border-left: Solid 5px black;
-    padding-left: 5px;
-    padding-right: 20px;
-    background-color: black;
+    text-decoration: none;
 }
 
-.title {
-    text-align: center;
-    
+.divide {
+    border-top: 1px rgba(0, 0, 0, 0.605) solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
-
-.music {
-    padding-top: 5%;
-    text-align: left;
-    margin-left: 3%;
-}
-
-.music img {
-    width: 210PX;
-    height: 210px;
-}
-
-.image-text {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1;
-    text-transform: uppercase;
-}
-.year {
-    font-size: 14px;
-    margin-top: -9px;
-    opacity: 90%;
-}
-
-img {
-    width: 100%;
-}
-
-.music div {
-    padding: 2px;
-}
-
-.dp {
-    background-size: cover;
-    width: 260px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.column {
-    margin: 25px;
-}
-
 
 .menu a {
     text-decoration: none;
-    line-height: 1.5;
-    font-size: 18px;
-    background-color: black;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0) !important;
     color: white;
-    font-weight: 500;
     padding-left: 15px;
     padding-right: 2px;
 }
 
 .menu a:visited {
     text-decoration: none;
-    line-height: 1.8;
-    font-size: 13px;
     background-color: black;
     color: white;
 }
 
 .menu a:hover {
-    color: black;
-    background-color: rgb(215, 215, 215);
+    color: rgb(0, 0, 0);
+    background-color: rgb(187, 187, 187) !important;
 }
 
 .menu li {
@@ -141,487 +87,151 @@ img {
     position: fixed !important;
     z-index: 2;
     top: 40%;
-    right: 9%;
+    right: 23%;
     margin-right: 10px;
 }
 
-a {
-    color: black;
+.pics {
+    width: 150px;
 }
 
-a:visited {
-    color: black;
+.musiclist {
+    margin-left: 80px;
 }
 
-
-#bio {
-    margin-left: 10%;
-    border-left: solid 20px black;
-}
-
-#moremusic {
-    margin-left: 10%;
-}    
-
-#commission {
-    border-right: Solid 5px black;
-    margin-right: 10%;
-}
-
-#contact {
-    border-left: Solid 5px black;
-    margin-left: 10%;
-}
-    
-a {
-    text-decoration: none;
-}
-
-.tag {
-    margin-left: 15%;
-    margin-right: 15%;
-    font-style: italic;
-    font-size: 25px;
-    padding-bottom: 10%;
+.title {
+    margin-top: 20%;
 }
 
 </style>
 <body>
-<div class="title" style="padding-top: 20%;">
-    <h1>
-        JOHN LYON
-    </h1>
-</div>
 
-<h2 class="title" style="padding-top: 20%; padding-bottom:10%;">
-   Composer, Producer
-</h2>
-
-<div>
-    <div>
-        <p style="width: 50%; margin: auto; font-size: 14px; font-style: italic; padding-bottom: 1%; font-weight: lighter;">
-            Note: The following is a short selection of original solo and commissioned music by John Lyon © 2016-2023. All Rights Reserved. Excluding official publications, artworks are all currently unofficial.
-            <br>This portfolio is best suited to widescreen viewing.
-        </p>
-    </div>
-</div>
+<h1 class="title">John Lyon</h1>
+<p>Composer, Producer</p>
+<i style="font-size: small;">Note: The following is a short selection of original solo and commissioned music by John Lyon © 2016–2023. All Rights Reserved. Excluding official publications, any artworks are all currently unofficial.</i>
 
 <div class="menu">
     <nav>
         <ul>
-            <li><a href="#classicalpiano">CLASSICAL PIANO</a></li>
-            <li><a href="#classicalorchestra">CLASSICAL ORCHESTRA</a></li>
-            <li><a href="#romanticpiano">ROMANTIC PIANO</a></li>
             <li><a href="#cinematic">CINEMATIC</a></li>
+            <li><a href="#classicalpiano">CLASSICAL PIANO</a></li>
+            <li><a href="#romanticpiano">ROMANTIC PIANO</a></li>
+            <li><a href="#classicalorchestra">CLASSICAL ORCHESTRA</a></li>
             <li><a href="#jazz">JAZZ</a></li>
             <li><a href="#electronic">ELECTRONIC</a></li>
-            <li><a href="#8bit" style="visibility: hidden;">8-BIT</a></li>
+            <li><a href="#8bit">8-BIT</a></li>
             <br>
-            <li><a href="#bio">BIO</a></li>
-            <li><a href="#commission">COMMISSION</a></li>
+            <li><a href="#about">ABOUT</a></li>
             <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#moremusic">MORE MUSIC</a></li>
-            <li><a href="https://www.instagram.com/johnlyon_/" target="_blank" rel="noopener noreferrer" style="background-color: transparent;"><img src="https://www.freepnglogos.com/uploads/instagram-icon-png/black-hd-instagram-icon-simple-black-design-9.png" alt="" style="height: 15px; width: 15px; position: inherit;">
-            </a></li>
         </ul>
     </nav>    
 </div>
 
-
-<div class="music" style="display: flex; flex-wrap: wrap;">
-    <div>
-        <p class ="category" id="classicalpiano">CLASSICAL PIANO</p>
-        <a href="https://youtu.be/sB01ulmbYZQ" target="_blank" rel="noopener noreferrer">
-            <img src="images/grainnn.jpg">
-            <p class="image-text">
-                EASTERN REALM
-            </p>
-        </a>
-        <p class="year">
-            2021
-        </p>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=O2zpwk2sHfE" target="_blank" rel="noopener noreferrer">
-        <img src="images/port.jpeg">
-        <p class="image-text">
-            PORT
-        </p>
-        <p class="year">
-            2019
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://youtu.be/4MLePuw4DyI" target="_blank" rel="noopener noreferrer"> 
-        <img src="images/jon-tyson-4kgsyPpka_Y-unsplash.jpg">
-        <p class="image-text">
-            DAWN
-        </p>
-        <p class="year">
-            2022 Commission
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=9aLKGNIvTfs" target="_blank" rel="noopener noreferrer"> 
-        <img src="images/grandiose.jpg">
-        <p class="image-text">
-            Grandiose
-        </p>
-        <p class="year">
-            2023 Harpsichord
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=ttYIQ-FFWwA" target="_blank" rel="noopener noreferrer">
-        <img src="images/aura.jpg">
-        <p class="image-text">
-            Aura
-        </p>
-        <p class="year">
-            2022
-        </p>
-        </a>
-    </div>
-</div>
-
-<div class="music" style="display: flex; flex-wrap: wrap;">
-    <div>
-        <p class ="category" id="classicalorchestra">CLASSICAL ORCHESTRA</p>
-        <a href="https://youtu.be/ZvKaDB4uMC4" target="_blank" rel="noopener noreferrer">
-        <img src="images/silence.jpg">
-        <p class="image-text">
-            SILENCE
-        </p>
-        <p class="year">
-            2022 Symphony Concept
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=8AJWibrTexo" target="_blank" rel="noopener noreferrer">
-        <img src="images/ports.jpg">
-        <p class="image-text">
-            PORT
-        </p>
-        <p class="year">
-            2022 String Quartet
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=yiqS30QdE_g" target="_blank" rel="noopener noreferrer">
-        <img src="images/strathmore.jpg">
-        <p class="image-text">
-            OF STRATHMORE
-        </p>
-        <p class="year">
-            2022 Concept
-        </p>
-        </a>
-    </div>
-</div>
-
-<div class="music" style="display: flex; flex-wrap: wrap;">
-    <div>
-        <p class="category" id="romanticpiano">ROMANTIC PIANO</p>
-        <a href="https://www.youtube.com/watch?v=uXuQhYirlEY" target="_blank" rel="noopener noreferrer">
-        <img src="images/christine-sandu-_nqwpCHKucU-unsplash.jpeg">
-        <p class="image-text">
-            KAYLY'S SONG
-        </p>
-        <p class="year">
-            2021 Commission
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=C1DFFsZY5AQ" target="_blank" rel="noopener noreferrer">
-        <img src="images/3.jpg">
-        <p class="image-text">
-            PINOT NOIR
-        </p>
-        <p class="year">
-            2020
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=qZ89KFECTSs" target="_blank" rel="noopener noreferrer">
-        <img src="images/retro2 copy.png">
-        <p class="image-text">
-            ABYSS LOVE STORY
-        </p>
-        <p class="year">
-            2019
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=tqgw1zdbVaI" target="_blank" rel="noopener noreferrer">
-        <img src="images/sherrycomp2.png">
-        <p class="image-text">
-            SHERRY
-        </p>
-        <p class="year">
-            2020
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=_mSaAx9p_eE" target="_blank" rel="noopener noreferrer">
-        <img src="images/czar 1 grain.jpg">
-        <p class="image-text">
-            CZAR
-        </p>
-        <p class="year">
-            2020
-        </p>
-        </a>
-    </div>
-    
-
-</div>
-
-<div class="music" style="display: flex; flex-wrap: wrap;">
-    <div>
-        <p class ="category" id="cinematic">CINEMATIC</p>
-        <a href="https://soundcloud.com/john-lyon7/sets/ring-of-war-by-john-lyon-original-concept-soundtrack/s-ptfZIZXLAPg" target="_blank" rel="noopener noreferrer">
-        <img src="images/row.jpg">
-        <p class="image-text">
-            RING OF WAR
-        </p>
-        <p class="year">
-            2022 Concept
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://youtu.be/qaCTow5KvEA" target="_blank" rel="noopener noreferrer">
-        <img src="images/eden.png">
-        <p class="image-text">
-            THE DEPTH OF EDEN
-        </p>
-        <p class="year">
-            2022 Concept
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://soundcloud.com/john-lyon7/sets/the-nameless-lore-by-john-lyon/s-ZoaqH" target="_blank" rel="noopener noreferrer">
-        <img src="images/tnl jpeg full.jpg">
-        <p class="image-text">
-            THE NAMELESS LORE
-        </p>
-        <p class="year">
-            2017 Cinematic
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://soundcloud.com/john-lyon7/sets/arde-original-soundtrack-by/s-9rlF9" target="_blank" rel="noopener noreferrer">
-        <img src="images/arde_ost_2_copy.png">
-        <p class="image-text">
-            ARDE (Game)
-        </p>
-        <p class="year">
-            TBD Neonat Studios
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=5rBScA9Jaf0" target="_blank" rel="noopener noreferrer">
-        <img src="images/wester 1-3 copy copy.jpg">
-        <p class="image-text">
-            CLAY COLEMAN
-        </p>
-        <p class="year">
-            2021 Western
-        </p>
-        </a>
-    </div>
-</div>
-
-<div class="music" style="display: flex; flex-wrap: wrap;">
-    <div>
-        <p class ="category" id="jazz">JAZZ</p>
-        <a href="https://www.youtube.com/watch?v=aT3Swvc4ulQ&feature=youtu.be" target="_blank" rel="noopener noreferrer">
-        <img src="images/rr.jpg">
-        <p class="image-text">
-            R. RIVER
-        </p>
-        <p class="year">
-            2018 Swing
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=9KvzthXHhGU" target="_blank" rel="noopener noreferrer">
-        <img src="images/hepburn.jpg">
-        <p class="image-text">
-            AUDREY HEPBURN
-        </p>
-        <p class="year">
-            2017 Swing
-        </p>
-        </a>
-    </div>
-</div>
-
-<div class="music" style="display: flex; flex-wrap: wrap;">
-    <div>
-        <p class ="category" id="electronic">ELECTRONIC</p>
-        <a href="https://www.youtube.com/watch?v=DhtdO8NYtwo" target="_blank" rel="noopener noreferrer">
-        <img src="images/ph3.jpg">
-        <p class="image-text">
-            PHLURO THREE
-        </p>
-        <p class="year">
-            2020 <a href="https://open.spotify.com/artist/19SgUU2qkorB9pN5KvKQUV" target="_blank" rel="noopener noreferrer">
-                <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-black-17.png" alt="" style="height: 30px; width: 30px; position: absolute; margin-top: -10px;">
-                </a>
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://soundcloud.com/john-lyon7/sets/nanoforge-ost-by-john-lyon-1/s-oJsRj" target="_blank" rel="noopener noreferrer">
-        <img src="images/artworks-000472540017-pasvcd-t500x500.jpeg">
-        <p class="image-text">
-            NANOFORGE (Game)
-        </p>
-        <p class="year">
-            TBD Diamond Age Media
-        </p>
-        </a>
-    </div>
-    <div style="display:none;">
-        <a href="https://youtu.be/OjtbQoYAI_U" target="_blank" rel="noopener noreferrer">
-        <img src="images/ph5.jpg">
-        <p class="image-text">
-            PHLURO FIVE
-        </p>
-        <p class="year">
-            2022 Concept
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://www.youtube.com/watch?v=PA7CQzMf4xI" target="_blank" rel="noopener noreferrer">
-        <img src="images/JohnLyon_PhluroOne.jpg">
-        <p class="image-text">
-            PHLURO ONE
-        </p>
-        <p class="year">
-            2019 <a href="https://open.spotify.com/artist/19SgUU2qkorB9pN5KvKQUV" target="_blank" rel="noopener noreferrer">
-            <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-black-17.png" alt="" style="height: 30px; width: 30px; position: absolute; margin-top: -10px;">
-            </a>
-        </p>
-        </a>
-    </div>
-    <div>
-        <a href="https://youtu.be/OjtbQoYAI_U" target="_blank" rel="noopener noreferrer">
-        <img src="images/ph5.jpg">
-        <p class="image-text">
-            PHLURO V
-        </p>
-        <p class="year">
-            2022 Concept
-        </p>
-        </a>
-    </div>
-    <div style="visibility: hidden;">
-        <p class ="category" id="8bit">8-BIT</p>
-        <a href="https://www.youtube.com/watch?v=y-T5YHFHKrk" target="_blank" rel="noopener noreferrer">
-        <img src="images/JL_PHLUROTHREE_2.png" style="width: 60px; height: 60px; border-style: solid; border-width: 1px;">
-        </a>
-        <a href="https://www.youtube.com/watch?v=bVGtVi1SLUQ" target="_blank" rel="noopener noreferrer">
-        <img src="images/222.gif" style="width: 60px; height: 60px; border-style: solid; border-width: 1px;">
-        </a>
-        <a href="https://www.youtube.com/watch?v=TnVvGwrIJDI" target="_blank" rel="noopener noreferrer">
-        <img src="images/rose8bitsm.gif" style="width: 60px; height: 60px; border-style: solid; border-width: 1px;">
-        </a>
-        <p class="image-text">
-            PHLURO THREE
-            <br>CZAR
-            <br>ROSE
-        </p>
-        <p class="year">
-            2021
-        </p>
-    </div>
-</div>
-
-<div id="bio" style="margin-top:5%;">
-    <div class="row" style="align-items: center; line-height: 1.5; font-size: 18px;">
-        <div class="column">
-            <h3 style="font-size: 30px; font-weight: bold;">Bio</h3>
-            <p>John Lyon is an Eastern and Western influenced Composer, with a great interest in genres incl. Classical, Orchestral, Jazz and Electronic music. His aim is to meaningfully contribute to the world’s vast catalogue of iconic music, pushing for quality, thought-provocation and immersion, in an endeavour to meet the desire for new virtuosity and a fresh approach to modern composition.
-                <br><br>At 5 years of age, Lyon had already acquired a pivotal appreciation for melody and theme, and began undertaking classes and an education in piano and percussion. During this time, and throughout the years of schooling, he discovered a love and enjoyment for his strict and disciplined routine of independent music progression and experimentation. This time was spent on an intense, intimate and close study of a selection of composers incl. Mozart, Beethoven, Liszt, Tchaikovsky and Schubert; who John felt were most relevant in defining a desired composition character, and whose traits to fuse with a personalised style which focused heavily on achieving, above all, catchy melodies, harmonies and progressions, while balancing complexity and simplicity; a sound that he best describes as iconic and sometimes cheesy, but also grounded, cold and noir; elements and timbres that, to him, are excellent at drawing the listeners ear.
-                <br><br>In recent years, Lyon’s music life has majorly revolved around writing a combination of commissioned (Incl. multiple video-game soundtracks and piano music) and solo work, as well as refining and evolving his own writing style, with the hopes of having his most cherished works realised and officially published by professional players in the near future, for the world to hear.
-                <br><br>Ultimately, Lyon’s originals are intended as testimony, not only to his expertise and ability in composition and writing, but to the importance of music having character, story and visual accompaniment.
-                <br><br>As well as taking influence from classical writers, Lyon has largely found inspiration from modern film composers like Howard Shore, John Williams and Ennio Morricone, and game composers such as Jeremy Soule, Woody Jackson, Motoi Sakuraba and Yuka Kitamura; individuals he considers masters of their craft.
-            </p>
-        </div>
-        <div class="column">
-            <img style="" class="dp" src="images/artist.jpeg" alt="">
-            <p style="font-size:11px">b. 21/8/96</p>
-        </div>
-    </div>
-</div>
-<div id="commission" class="row" style="align-items: baseline; line-height: 1.5; font-size: 18px;">
-    <div class="column" style="width: 50%;">
-        <h3 style="font-size: 30px; font-weight: bold;">Commission an original classical-influenced piano work</h3>
-        <p>This public commission service plays an important role in my endeavour to create a range of classical-themed hits and to make piano music that sounds new, yet familiar and iconic. As commissioned original paintings, and artworks, may serve as special and sacred gifts, I imagine that original classical music could be just as personal and gifting.
-        <br><br><b>Your purposes for commissioning a piano work</b><br>Examples incl. a dedication or tribute to a loved one (spouse or family member), or a story about something important to you, a tragedy, emotion or mood. Maybe for a piano player who wants to play something new. Ultimately, a commission can be in name of, or dedicated to, many aspects of somebody’s life.
-        <br><br><b>The process</b><br>Written with exactly the same approach and care as taken with all my music, an emotional angle is first selected and established, before an era or more specific genre to target (e.g. Romantic-era). Next, I write and mirror the tribute, dedication or story in question. Additionally, a reference piece (e.g. “lean toward the style of Fur Elise”) could also optionally be provided to assist direction.
-        </p>
-    </div>
-    <div class="column" style="width:50%;">
-        <p>
-            <b>What will the duration of the piece be?</b><br>3–5 minutes (estimate), but not less than 3 minutes.
-            <br><br><b>What is included</b><br>The Official Score PDF.
-            <br>Audio (realistic live playback representation) WAV, MP3.
-            <br><br><a href="https://drive.google.com/file/d/11vOj8U0NfQPilkzLTLxNLx1P5H13b0eh/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;">Score sample.</a>
-            <br><a href="https://www.youtube.com/watch?v=8U7BIwribIQ" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;">Audio sample.</a>
-            <br><br><b>Delivery</b><br>Via email. Time for delivery will change per piece, and may take between 1-4 months.
-            </p>
-    </div>        
-</div>
-
-<div id="contact" class="row" style="line-height: 1.5; font-size: 18px; max-width: 50%; text-align: left; justify-content: center;">
-    <div class="column">
-        <h3 style="font-size: 30px; font-weight: bold;">Contact</h3>
-        <p>For all commission and other collaboration or business inquiries e.g. relating to video-game soundtracks, please contact me via
-        <br>Email: johnlyonmusic@gmail.com
-        <br>Discord: j.lyonMusic#6848
-        </p>
-        <h3 style="font-size: 30px; font-weight: bold;">Follow me here</h3>
-        <p>
-            <a href="https://www.youtube.com/channel/UCNtmB8XzX4kLmu8b_hcy-1w" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Youtube</a>
-            <br><a href="https://www.instagram.com/johnlyon_/" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Instagram</a>
-        </p>
-    </div>   
-</div>
- 
-<div id="moremusic" style="margin-top:5%;">
-    <div class="row" style="align-items: center; line-height: 1.5; font-size: 16px;">
-        <div class="column">
-            <h3 style="font-size: 30px; font-weight: bold;">More Music</h3>
-            <a href="https://youtu.be/ZN6OcYlWLAI" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;">Lippy</a>
-            <p>2022 / Harpsichord</p>
-    </div>
-</div>
-    
-    
-
-<div>
-    <p style="width: 38%; margin: auto; font-size: 11px; font-style: italic; padding-bottom: 10%; padding-top:10%; text-align: center;">
-        John Lyon © 2023. All Rights Reserved.
+<div class="music" style="margin-top: 20%;">
+    <h2 id="cinematic">Cinematic</h2>
+    <p class="musiclist"><a href="https://www.youtube.com/watch?v=fDwWzTJLljk" target="_blank">Ring of War</a> / 2023 Fantasy Epic
+    <br>
+    <a href="https://youtu.be/fDwWzTJLljk?t=300" target="_blank">The Depth of Eden</a> / 2023 Fantasy SciFi
+    <br>
+    <a href="https://soundcloud.com/john-lyon7/sets/the-nameless-lore-by-john-lyon/s-ZoaqH" target="_blank">The Nameless Lore</a> / 2017 Fantasy
+    <br>
+    <a href="https://soundcloud.com/john-lyon7/sets/arde-original-soundtrack-by/s-9rlF9" target="_blank">Arde (Game)</a> / TBD Arcade Fantasy
+    <br>
+    <a href="https://www.youtube.com/watch?v=5rBScA9Jaf0" target="_blank">Clay Coleman</a> / 2018 Spaghetti Western
     </p>
+
+    <h2 id="classicalpiano">Classical Piano</h2>
+    <p class="musiclist">
+    <a href="https://youtu.be/sB01ulmbYZQ" target="_blank">Eastern Realm</a> / 2020 <a href="https://drive.google.com/file/d/11vOj8U0NfQPilkzLTLxNLx1P5H13b0eh/view?usp=sharing" target="_blank">Score Sample</a>
+    <br>
+    <a href="https://www.youtube.com/watch?v=_I1pW5d1zVE" target="_blank">Royale</a> / 2023 Live
+    <br>
+    <a href="https://www.youtube.com/watch?v=O2zpwk2sHfE" target="_blank">Port</a> / 2019
+    <br>
+    <a href="https://www.youtube.com/watch?v=ttYIQ-FFWwA" target="_blank">Aura</a> / 2022
+    <br>
+    <a href="https://www.youtube.com/watch?v=9aLKGNIvTfs" target="_blank">Grandiose</a> / 2023 Harpsichord
+    <br>
+    <a href="https://www.youtube.com/watch?v=4MLePuw4DyI" target="_blank">Dawn</a> / 2022 Commission
+    <br>
+    <a href="https://www.youtube.com/watch?v=qZ89KFECTSs" target="_blank">The Abyss Love Story</a> / 2019
+    </p>
+
+    <h2 id="romanticpiano">Romantic Piano</h2>
+    <p class="musiclist">
+    <a href="https://www.youtube.com/watch?v=uXuQhYirlEY" target="_blank">Song of Remembrance</a> / 2021 Commission
+    <br>
+    <a href="https://www.youtube.com/watch?v=C1DFFsZY5AQ" target="_blank">Pinot Noir</a> / 2020
+    <br>
+    <a href="https://www.youtube.com/watch?v=_mSaAx9p_eE" target="_blank">Czar</a> / 2020
+    <br>
+    <a href="https://www.youtube.com/watch?v=tqgw1zdbVaI" target="_blank">Sherry</a> / 2020
+    <br>
+    </p>
+
+    <h2 id="classicalorchestra">Classical Orchestra</h2>
+    <p class="musiclist">
+    <a href="https://youtu.be/fDwWzTJLljk?t=385" target="_blank">Silence</a> / 2022 Symphony
+    <br>
+    <a href="https://www.youtube.com/watch?v=8AJWibrTexo" target="_blank">Port</a> / 2022 String Quartet
+    <br>
+    <a href="https://www.youtube.com/watch?v=yiqS30QdE_g" target="_blank">Of Strathmore</a> / 2022 Symphony Concept
+    <br>
+    </p>
+
+    <h2 id="jazz">Jazz</h2>
+    <p class="musiclist">
+    <a href="https://www.youtube.com/watch?v=aT3Swvc4ulQ&feature=youtu.be" target="_blank">R. River</a> / 2018 Swing
+    <br>
+    <a href="https://www.youtube.com/watch?v=9KvzthXHhGU" target="_blank">A. Hepburn</a> / 2017 Swing
+    <br>
+    </p>
+
+    <h2 id="electronic">Electronic</h2>
+    <p class="musiclist">
+    <a href="https://youtu.be/OjtbQoYAI_U" target="_blank">Phluro V</a> / 2023
+    <br>
+    <a href="https://www.youtube.com/watch?v=WmD9XIxFjds" target="_blank">Phluro Three</a> / 2020
+    <br>
+    <a href="https://www.youtube.com/watch?v=PA7CQzMf4xI" target="_blank">Phluro One</a> / 2019
+    <br>
+    <a href="https://soundcloud.com/john-lyon7/sets/nanoforge-ost-by-john-lyon-1/s-oJsRj" target="_blank">Nanoforge (Game)</a> / TBD
+    <br>
+    </p>
+
+    <h2 id="8bit">8-Bit</h2>
+    <p class="musiclist">
+    <a href="https://www.youtube.com/watch?v=y-T5YHFHKrk" target="_blank">Phluro 3</a>
+    <br>
+    <a href="https://www.youtube.com/watch?v=TnVvGwrIJDI" target="_blank">Rose</a>
+    <br>
+    <a href="https://www.youtube.com/watch?v=bVGtVi1SLUQ" target="_blank">Czar</a>
+    <br>
+
 </div>
 
+<div class="divide"></div>
+
+<h2 id="about">About</h2>
+
+<p><i>John Lyon</i> is an Eastern and Western influenced Composer and producer, with a great interest in genres incl. Classical, Orchestral, Jazz and Electronic music. His aim is to meaningfully contribute to the world’s vast catalogue of iconic music, pushing for quality, thought-provocation and immersion, in an endeavor to meet the desire for new virtuosity and a fresh approach to modern composition.<br><br>
+
+At five years of age, Lyon had already acquired an appreciation for melody and theme, and began undertaking classes and an education in piano and percussion. During this time, and throughout the years of schooling, he discovered a love and enjoyment for his strict and disciplined routine of independent music progression and experimentation. This time was spent on an intense, intimate and close study of a selection of composers incl. Mozart, Beethoven, Tchaikovsky and Schubert; who John felt were most relevant in defining a desired composition character, and whose traits to fuse with a personalised style which focused heavily on achieving, above all, catchy melodies, harmonies and progressions, while balancing complexity and simplicity; a sound that he best describes as iconic and sometimes cheesy, but also grounded, cold and noir; elements and timbres that, to him, are excellent at drawing the listeners ear.<br><br>
+In recent years, Lyon’s music life has majorly revolved around writing a combination of commissioned (Incl. multiple video-game soundtracks and piano music) and solo work, with an endless focus on always refining and evolving his writing style, with the hopes of having his most cherished works realised and officially published by professional players in the near future, for the world to hear.<br><br>
+Ultimately, Lyon’s originals are intended as testimony, not only to his expertise and ability in composition and writing, but to the importance of music having character, story and visual accompaniment.<br><br>
+As well as taking influence from classical writers, Lyon has largely found inspiration from modern film composers like Howard Shore, John Williams and Ennio Morricone, and game composers such as Jeremy Soule, Woody Jackson, Motoi Sakuraba and Yuka Kitamura; individuals he considers masters of their craft.</p>
+
+<h2 id="contact">Contact</h2>
+
+<p>
+For all commission and other collaboration or business inquiries e.g relating to classical music or video-game soundtracks, please contact me via<br>
+Email: johnlyonmusic@gmail.com<br>
+Discord: j.lyonMusic#6848<br>
+<a href="https://www.youtube.com/channel/UCNtmB8XzX4kLmu8b_hcy-1w">Youtube</a><br>
+<a href="https://www.instagram.com/johnlyon_/">Instagram</a>
+</p>
+
+<i style="font-size: smaller;">John Lyon © 2023. All Rights Reserved.</i>
 
 </body>
 </html>
